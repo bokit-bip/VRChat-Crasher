@@ -5,7 +5,7 @@ Shader "AV/DEBUG/Distance Crash"
 {
 	Properties
 	{
-		_Distance("Distance", Range( 0 , 2)) = 1
+		_Distance("Distance", Range( 0 , 1000)) = 1
 		_Iterations("Iterations (x10⁶)", Range( 1 , 1000)) = 1
 		[Toggle]_SafeMode("Safe Mode", Int) = 1
 		[HideInInspector]_MainTex("MainTex", 2D) = "white" {}
